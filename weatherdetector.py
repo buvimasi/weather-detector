@@ -29,13 +29,13 @@ while flag == 1:
         end = end -1
         print("\nHigh: " + newdata[start:end] + ' degree'+'\n')
         n = re.search('Detailed',newdata)
-        head = n.end() +500
-        tail = head + 322
-        Newdata = newdata[head:tail]
+        start = n.end() +500
+        end = start + 322
+        Newdata = newdata[start:end]
         n = re.search('nowrap>Temperature:&nbsp;',Newdata)
-        head = n.end()
-        tail = n.end()+2
-        print("\nLow: " + Newdata[head:tail] + ' degree')
+        start = n.end()
+        end = n.end()+2
+        print("\nLow: " + Newdata[start:end] + ' degree')
     except:
         print("\nSorry. No match found !")
     s(1)    
