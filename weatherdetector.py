@@ -1,6 +1,6 @@
+import re
 from time import sleep as s
 import urllib.request as u
-import re
 print("\t -------------- Welcome To Weather Detector-----------")
 flag=1
 while flag == 1:
