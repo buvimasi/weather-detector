@@ -1,5 +1,5 @@
 # weather-detector
    find a current weather of cities in india
  ## python packages
-  re
-  urlib
+  1.re
+  2.urlib
